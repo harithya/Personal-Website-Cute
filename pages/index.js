@@ -4,7 +4,7 @@ import { Carousel, Container, Section, Sosial, Work } from '../components'
 
 function Home() {
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-x-hidden'>
       <Section>
         <Carousel />
       </Section>
