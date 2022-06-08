@@ -4,7 +4,7 @@ import { Carousel, Container, Section, Sosial, Work } from '../components'
 
 function Home() {
   return (
-    <div className='w-full overflow-x-hidden'>
+    <div className='w-full container'>
       <Section>
         <Carousel />
       </Section>
@@ -38,8 +38,7 @@ function Home() {
         <Container className={"py-20"}>
           <h1 className='text-center text-xl font-medium mb-3'>☎️ Contact Me Anytime ☎️</h1>
           <p className='text-center mb-20'> You can contact me in many ways, I will be very happy if you contact me 🙌</p>
-
-          <div>
+          <div className='flex flex-col'>
             <Sosial
               title="Instagram"
               data-aos="fade-right"
@@ -59,9 +58,10 @@ function Home() {
           </div>
         </Container>
       </section>
-      <footer className='flex justify-center py-5'>
+
+      {/* <footer className='flex justify-center py-5'>
         <span className='mb-5 text-sm'>Copyright © 2022 <a href='https://harithya.vercel.app/' className='text-gray-800 font-medium'>Haruthya</a>. inspiration <a className='text-gray-800 font-medium' href='https://jemi.so/jesserieprieto31?referral=jp'>@jesserieprieto31</a></span>
-      </footer>
+      </footer> */}
     </div>
   )
 }
