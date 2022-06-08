@@ -4,7 +4,7 @@ import { Carousel, Container, Section, Sosial, Work } from '../components'
 
 function Home() {
   return (
-    <div>
+    <div className='w-full'>
       <Section>
         <Carousel />
       </Section>
