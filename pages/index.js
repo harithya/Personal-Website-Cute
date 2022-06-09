@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Carousel, Container, Section, Sosial, SosialSection, Work } from '../components'
+import { Carousel, Container, Section, SosialSection, Work } from '../components'
 
 function Home() {
   return (
