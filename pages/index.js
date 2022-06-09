@@ -18,7 +18,7 @@ function Home() {
             </div>
           </div>
           <a href='https://instagram.com/dellariantyf_?igshid=YmMyMTA2M2Y='>
-            <img src='/della-feed.png' alt='Della Rianty Feed Instagram' className='w-full h-full mt-20 hover:scale-105 transition-all' />
+            <img src='/della-feed.png' alt='Della Rianty Feed Instagram' className='w-full h-full lg:mt-20 mt-10 hover:scale-105 transition-all' />
           </a>
         </Container>
       </section>
@@ -26,7 +26,7 @@ function Home() {
         <Container>
           <h1 className='text-center text-xl font-medium mb-3'>⭐ Some of My Recent Work ⭐</h1>
           <p className='text-center mb-20'> You can contact me if you want to get the same result😊</p>
-          <div data-aos="zoom-in" className='grid lg:grid-cols-3 grid-cols-2 gap-10'>
+          <div data-aos="zoom-in" className='grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5'>
             <Work />
             <Work />
             <Work />
