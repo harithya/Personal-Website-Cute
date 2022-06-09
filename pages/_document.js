@@ -5,9 +5,8 @@ export default function Document() {
         <Html>
             <Head>
                 <title>Hey there! I'm Della Rianty Febrian 👋</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             </Head>
-            <body data-reactroot>
+            <body data-reactroot className='bg-[#f9f7f5] dark:bg-gray-800 transition-colors duration-300'>
                 <Main />
                 <NextScript />
             </body>

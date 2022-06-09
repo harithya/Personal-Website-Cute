@@ -8,7 +8,7 @@ function Home() {
       <Section>
         <Carousel />
       </Section>
-      <section data-aos="fade-up">
+      <section>
         <Container className={"py-20"}>
           <div className='flex justify-start gap-12 items-center lg:flex-row flex-col'>
             <Image src={"/della.jpg"} height={600} width={600} objectFit="cover" />
@@ -35,9 +35,8 @@ function Home() {
         </Container>
       </Section>
       <SosialSection />
-
-      <footer className='flex justify-center py-5'>
-        <span className='mb-5 text-sm'>Copyright © 2022 <a href='https://harithya.vercel.app/' className='text-gray-800 font-medium'>Haruthya</a>. inspiration <a className='text-gray-800 font-medium' href='https://jemi.so/jesserieprieto31?referral=jp'>@jesserieprieto31</a></span>
+      <footer className='flex justify-center py-2'>
+        <span className='mb-5 text-xs'>Copyright © 2022 <a href='https://harithya.vercel.app/' className='text-gray-800 font-medium dark:text-gray-200'>Haruthya</a>. inspiration <a className='text-gray-800 dark:text-gray-200 font-medium' href='https://jemi.so/jesserieprieto31?referral=jp'>@jesserieprieto31</a></span>
       </footer>
     </div>
   )
