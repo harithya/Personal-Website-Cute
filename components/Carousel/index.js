@@ -52,7 +52,7 @@ const Carousel = () => {
                 <Slider {...settings} >
                     {url.map((val, key) =>
                         <div key={`slider-${key}`} className='py-5 px-8 outline-0'>
-                            <img src={val} className="lg:h-80 h-72 lg:w-80 w-full object-cover" />
+                            <img src={val} className="lg:h-80 dark:grayscale h-72 lg:w-80 w-full object-cover" />
                         </div>)}
                 </Slider>
             </Container>
