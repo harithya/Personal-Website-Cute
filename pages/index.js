@@ -5,10 +5,10 @@ import { Carousel, Container, Section, Sosial, SosialSection, Work } from '../co
 function Home() {
   return (
     <div className='w-full container'>
-      <Section>
+      <Section id={"home"}>
         <Carousel />
       </Section>
-      <section>
+      <section id='about'>
         <Container className={"py-20"}>
           <div className='flex justify-start gap-12 items-center lg:flex-row flex-col'>
             <Image src={"/della.jpg"} height={600} width={600} objectFit="cover" />
@@ -17,10 +17,12 @@ function Home() {
               <p className='leading-8'>I'm a student and also a nutritionist, anime and manga are things I like, but there are some things I hate including peanuts.</p>
             </div>
           </div>
-          <img data-aos="zoom-in-left" src='/della-feed.png' alt='Della Rianty Feed Instagram' className='w-full h-full mt-20' />
+          <a href='https://instagram.com/dellariantyf_?igshid=YmMyMTA2M2Y='>
+            <img src='/della-feed.png' alt='Della Rianty Feed Instagram' className='w-full h-full mt-20 hover:scale-105 transition-all' />
+          </a>
         </Container>
       </section>
-      <Section>
+      <Section id={"work"}>
         <Container>
           <h1 className='text-center text-xl font-medium mb-3'>⭐ Some of My Recent Work ⭐</h1>
           <p className='text-center mb-20'> You can contact me if you want to get the same result😊</p>

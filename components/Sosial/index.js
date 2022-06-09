@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Sosial({ title, icon, ...props }) {
+function Sosial({ title, icon, href }) {
     return (
-        <button {...props} className=' bg-white dark:bg-gray-600 py-5 rounded-full hover:shadow-sm relative hover:scale-105 transition-all mb-5'>
-            {icon}
-            <span className='font-medium'>{title}</span>
-        </button>
+        <a href={href} target="_blank" rel="noreferrer" className='bg-white flex dark:bg-gray-600 py-5 rounded-full hover:shadow-sm relative hover:scale-105 transition-all mb-5'>
+            <div className='flex justify-center w-full'>
+                {icon}
+                <span className='font-medium'>{title}</span>
+            </div>
+        </a>
     )
 }
 

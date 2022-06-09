@@ -6,6 +6,7 @@ import Sosial from "./Sosial";
 import SosialSection from "./Section/SosialSection";
 import MainLayout from "./Layout/MainLayout";
 import SwitchMode from "./Switch/SwitchMode";
+import Header from "./Header";
 
 export {
     Carousel,
@@ -15,5 +16,6 @@ export {
     Sosial,
     SosialSection,
     MainLayout,
-    SwitchMode
+    SwitchMode,
+    Header
 }
