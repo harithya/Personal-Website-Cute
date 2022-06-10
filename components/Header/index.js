@@ -10,7 +10,7 @@ const Item = ({ children, href }) => {
 
 const Navigation = ({ className }) => {
     return (
-        <nav className={`lg:space-x-10 ${className} `}>
+        <nav className={`lg:space-x-10 flex ${className} `}>
             <Item href={"#"}>Home</Item>
             <Item href={"#about"}>About</Item>
             <Item href={"#work"}>Work</Item>

@@ -48,7 +48,7 @@ const Carousel = () => {
     };
     return (
         <div>
-            <Container>
+            <Container className={"py-14"}>
                 <Slider {...settings} >
                     {url.map((val, key) =>
                         <div key={`slider-${key}`} className='py-5 px-8 outline-0'>

@@ -5,7 +5,7 @@ import { Carousel, Container, Section, SosialSection, Work } from '../components
 function Home() {
   return (
     <div className='w-full container'>
-      <Section id={"home"} className="py-36">
+      <Section id={"home"}>
         <Carousel />
       </Section>
       <section id='about'>
